@@ -218,6 +218,68 @@
 					Exit Application</button>
 			</div>
 		</div>
+		<div class="row">
+<div class="col-md-12">
+						<table class="table table-condensed">
+							<tr>
+								<td><span class="label label-primary">Date</span></td>
+								<td>8am</td>
+								<td>9am</td>
+								<td>10am</td>
+								<td>11am</td>
+								<td>12pm</td>
+								<td>1pm</td>
+								<td>2pm</td>
+								<td>3pm</td>
+								<td>4pm</td>
+								<td>5pm</td>
+								<td>6pm</td>
+								<td>7pm</td>
+								<td>8pm</td>
+								<td>9pm</td>
+							</tr>
+							<tbody id="tslotperform">
+								<tr>
+									<td><span class="label label-success" data-bind="text: displaydate"></span></td>
+									<td><span id="8am" title="slota" class="btn btn-info btn-xs"
+										data-bind="text: activeslota().length"></span></td>
+									<td><span id="9am" title="slotb" class="btn btn-info btn-xs"
+										data-bind="text: activeslotb().length"></span></td>
+									<td><span id="10am" title="slotc" class="btn btn-info btn-xs"
+										data-bind="text: activeslotc().length"></span></td>
+									<td><span id="11am" title="slotd" class="btn btn-info btn-xs"
+										data-bind="text: activeslotd().length"></span></td>
+									<td><span id="12pm" title="slote" class="btn btn-info btn-xs"
+										data-bind="text: activeslote().length"></span></td>
+									<td><span id="1pm" title="slotf" class="btn btn-info btn-xs"
+										data-bind="text: activeslotf().length"></span></td>
+									<td><span id="2pm" title="slotg" class="btn btn-info btn-xs"
+										data-bind="text: activeslotg().length"></span></td>
+									<td><span id="3pm" title="sloth" class="btn btn-info btn-xs"
+										data-bind="text: activesloth().length"></span></td>
+									<td><span id="4pm" title="sloti" class="btn btn-info btn-xs"
+										data-bind="text: activesloti().length"></span></td>
+									<td><span id="5pm" title="slotj" class="btn btn-info btn-xs"
+										data-bind="text: activeslotj().length"></span></td>
+									<td><span id="6pm" title="slotk" class="btn btn-info btn-xs"
+										data-bind="text: activeslotk().length"></span></td>
+									<td><span id="7pm" title="slotl" class="btn btn-info btn-xs"
+										data-bind="text: activeslotl().length"></span></td>
+									<td><span id="8pm" title="slotm" class="btn btn-info btn-xs"
+										data-bind="text: activeslotm().length"></span></td>
+									<td><span id="9pm" title="slotn" class="btn btn-info btn-xs"
+										data-bind="text: activeslotn().length"></span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+		</div>
+		<div class="row">
+           	<div class="col-md-12">
+           		<button id="nextcallback" class="btn btn-primary btn-block">Get Next Callback</button>
+           	</div>
+		</div>
 	</div>
 	<img class="logosmall" src="assets/img/fiostalogo.png" />
 	<script src="assets/js/jquery-2.1.3.min.js"></script>
