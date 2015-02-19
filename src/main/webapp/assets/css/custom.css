@@ -1,0 +1,70 @@
+body {
+	overflow-x: hidden;
+}
+
+.logosmall {
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+
+.poslogin {
+	margin-top: 40%;
+}
+
+.posicon {
+	margin-top: 30%;
+}
+
+.iconheight {
+	height: 34%;
+}
+
+.iconblue {
+	background-color: #336699;
+}
+
+.iconfont {
+	color: #fff;
+	font-size: 7em;
+}
+
+.panelfont {
+	color: #ffffff;
+}
+
+.btn-width {
+	width: 150px;
+}
+
+.float-right {
+	float: right;
+}
+
+.centre{
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel-default>.panel-heading {
+color: #FFF;
+background-color: #555555;
+border-color: #555555;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 800px;
+}
+
+#ui-datepicker-div { display:none }
+
+.ui-widget {
+    font-family: arial,sans-serif;
+}
